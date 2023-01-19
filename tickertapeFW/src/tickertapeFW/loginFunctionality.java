@@ -161,6 +161,6 @@ public class loginFunctionality extends mainDriver{
 	
 	@AfterMethod
 	public void close() {
-		//driver.quit();
+		driver.quit();
 	}
 }
