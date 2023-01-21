@@ -1,133 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-21T23:29:51 IST" name="Default suite" finished-at="2023-01-21T23:31:03 IST" duration-ms="72792">
+  <suite started-at="2023-01-22T00:17:41 IST" name="Failed suite [Failed suite [Failed suite [Default suite]]]" finished-at="2023-01-22T00:17:47 IST" duration-ms="6848">
     <groups>
     </groups>
-    <test started-at="2023-01-21T23:29:51 IST" name="Default test" finished-at="2023-01-21T23:31:03 IST" duration-ms="72792">
-      <class name="tickertapeFW.mmi">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:29:51 IST" name="setup" finished-at="2023-01-21T23:29:56 IST" duration-ms="5778" status="PASS">
+    <test started-at="2023-01-22T00:17:41 IST" name="Default test(failed)(failed)(failed)" finished-at="2023-01-22T00:17:47 IST" duration-ms="6848">
+      <class name="tickertapeFW.stockDeals">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.stockDeals@3232a28a]" started-at="2023-01-22T00:17:41 IST" name="setup" finished-at="2023-01-22T00:17:47 IST" duration-ms="5824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="urlTest()[pri:1, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:29:56 IST" name="urlTest" finished-at="2023-01-21T23:29:56 IST" duration-ms="22" status="PASS">
+        <test-method signature="box1Test()[pri:3, instance:tickertapeFW.stockDeals@3232a28a]" started-at="2023-01-22T00:17:47 IST" name="box1Test" finished-at="2023-01-22T00:17:47 IST" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:29:56 IST" name="close" finished-at="2023-01-21T23:29:57 IST" duration-ms="407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:29:57 IST" name="setup" finished-at="2023-01-21T23:30:03 IST" duration-ms="5614" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="helpButtonTest()[pri:2, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:03 IST" name="helpButtonTest" finished-at="2023-01-21T23:30:03 IST" duration-ms="917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- helpButtonTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:03 IST" name="close" finished-at="2023-01-21T23:30:04 IST" duration-ms="696" status="PASS">
+        </test-method> <!-- box1Test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.stockDeals@3232a28a]" started-at="2023-01-22T00:17:47 IST" name="close" finished-at="2023-01-22T00:17:47 IST" duration-ms="746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:04 IST" name="setup" finished-at="2023-01-21T23:30:09 IST" duration-ms="5182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="mmiLogoTest()[pri:2, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:09 IST" name="mmiLogoTest" finished-at="2023-01-21T23:30:10 IST" duration-ms="703" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mmiLogoTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:10 IST" name="close" finished-at="2023-01-21T23:30:11 IST" duration-ms="723" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:11 IST" name="setup" finished-at="2023-01-21T23:30:17 IST" duration-ms="5902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="mmiTextTest()[pri:2, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:17 IST" name="mmiTextTest" finished-at="2023-01-21T23:30:17 IST" duration-ms="127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mmiTextTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:17 IST" name="close" finished-at="2023-01-21T23:30:17 IST" duration-ms="519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:17 IST" name="setup" finished-at="2023-01-21T23:30:22 IST" duration-ms="4742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="hover1Test()[pri:3, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:22 IST" name="hover1Test" finished-at="2023-01-21T23:30:23 IST" duration-ms="994" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hover1Test -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:23 IST" name="close" finished-at="2023-01-21T23:30:24 IST" duration-ms="550" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:24 IST" name="setup" finished-at="2023-01-21T23:30:29 IST" duration-ms="5122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="hover2Test()[pri:3, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:29 IST" name="hover2Test" finished-at="2023-01-21T23:30:29 IST" duration-ms="735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hover2Test -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:29 IST" name="close" finished-at="2023-01-21T23:30:30 IST" duration-ms="473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:30 IST" name="setup" finished-at="2023-01-21T23:30:35 IST" duration-ms="5317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="hover3Test()[pri:3, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:35 IST" name="hover3Test" finished-at="2023-01-21T23:30:36 IST" duration-ms="1147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hover3Test -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:36 IST" name="close" finished-at="2023-01-21T23:30:37 IST" duration-ms="520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:37 IST" name="setup" finished-at="2023-01-21T23:30:43 IST" duration-ms="6567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="hover5Test()[pri:3, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:43 IST" name="hover5Test" finished-at="2023-01-21T23:30:44 IST" duration-ms="340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hover5Test -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:44 IST" name="close" finished-at="2023-01-21T23:30:44 IST" duration-ms="367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:44 IST" name="setup" finished-at="2023-01-21T23:30:54 IST" duration-ms="9988" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="historyTest()[pri:4, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:54 IST" name="historyTest" finished-at="2023-01-21T23:30:54 IST" duration-ms="168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- historyTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:54 IST" name="close" finished-at="2023-01-21T23:30:55 IST" duration-ms="243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:30:55 IST" name="setup" finished-at="2023-01-21T23:31:03 IST" duration-ms="8353" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="shareButtonTest()[pri:5, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:31:03 IST" name="shareButtonTest" finished-at="2023-01-21T23:31:03 IST" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shareButtonTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.mmi@383bfa16]" started-at="2023-01-21T23:31:03 IST" name="close" finished-at="2023-01-21T23:31:03 IST" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- tickertapeFW.mmi -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tickertapeFW.stockDeals -->
+    </test> <!-- Default test(failed)(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->
 </testng-results>
