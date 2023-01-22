@@ -1,5 +1,7 @@
 package tickertapeFW;
 import java.time.Duration;
+import java.util.Scanner;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -31,6 +33,13 @@ public class common extends mainDriver{
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(xpath)));
 		driver.findElement(By.xpath(xpath)).sendKeys(text);;
+	}
+	
+	public static String scanner() {
+		Scanner text= new Scanner(System.in);
+		System.out.println("Enter OTP :");
+		String string=text.nextLine();
+		return string;
 	}
 	
 }

@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class loginFunctionality extends mainDriver{
-	//public static WebDriver driver;
 	@BeforeMethod
 	public void setup() {
 		mainDriver.CreaterInstance("Chrome");
@@ -15,7 +14,6 @@ public class loginFunctionality extends mainDriver{
 		driver.get("https://www.tickertape.in/");
 		try {
 			driver.findElement(By.xpath("//i[@class=\"jsx-1245644719 jsx-2319868650 icon-Close text-24 text-primary\"]")).click();
-			//common.click("//i[@class=\"jsx-1245644719 jsx-2319868650 icon-Close text-24 text-primary\"]");
 		} catch (NoSuchElementException e) {
 		}
 	}

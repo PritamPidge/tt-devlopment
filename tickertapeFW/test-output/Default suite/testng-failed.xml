@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tickertapeFW.stockDeals">
+      <class name="tickertapeFW.logoutFunctionality">
         <methods>
-          <include name="box3Test"/>
-          <include name="box6Test"/>
-          <include name="close"/>
-          <include name="box1Test"/>
           <include name="setup"/>
+          <include name="logoutTest"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- tickertapeFW.stockDeals -->
+      </class> <!-- tickertapeFW.logoutFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
