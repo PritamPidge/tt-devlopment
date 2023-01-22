@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Gmail Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="rickertapeFW(failed)">
+    <classes>
+      <class name="tickertapeFW.landingPage">
+        <methods>
+          <include name="backToHomeTextdisplayTest"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tickertapeFW.landingPage -->
+    </classes>
+  </test> <!-- rickertapeFW(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

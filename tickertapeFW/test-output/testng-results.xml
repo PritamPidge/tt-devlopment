@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="21" total="23" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-22T13:31:49 IST" name="Default suite" finished-at="2023-01-22T13:32:25 IST" duration-ms="36575">
+  <suite started-at="2023-01-22T18:10:45 IST" name="Failed suite [Default suite]" finished-at="2023-01-22T18:11:11 IST" duration-ms="26256">
     <groups>
     </groups>
-    <test started-at="2023-01-22T13:31:49 IST" name="Default test" finished-at="2023-01-22T13:32:25 IST" duration-ms="36575">
-      <class name="tickertapeFW.logoutFunctionality">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.logoutFunctionality@71238fc2]" started-at="2023-01-22T13:31:49 IST" name="setup" finished-at="2023-01-22T13:31:56 IST" duration-ms="7275" status="PASS">
+    <test started-at="2023-01-22T18:10:45 IST" name="Default test(failed)" finished-at="2023-01-22T18:11:11 IST" duration-ms="26256">
+      <class name="tickertapeFW.watchlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.watchlist@35aea049]" started-at="2023-01-22T18:10:45 IST" name="setup" finished-at="2023-01-22T18:10:51 IST" duration-ms="5413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoutTest()[pri:0, instance:tickertapeFW.logoutFunctionality@71238fc2]" started-at="2023-01-22T13:31:56 IST" name="logoutTest" finished-at="2023-01-22T13:32:25 IST" duration-ms="28900" status="PASS">
+        <test-method signature="fundamental_Test()[pri:16, instance:tickertapeFW.watchlist@35aea049]" started-at="2023-01-22T18:10:51 IST" name="fundamental_Test" finished-at="2023-01-22T18:10:59 IST" duration-ms="8458" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.logoutFunctionality@71238fc2]" started-at="2023-01-22T13:32:25 IST" name="close" finished-at="2023-01-22T13:32:25 IST" duration-ms="324" status="PASS">
+        </test-method> <!-- fundamental_Test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.watchlist@35aea049]" started-at="2023-01-22T18:10:59 IST" name="close" finished-at="2023-01-22T18:10:59 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- tickertapeFW.logoutFunctionality -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tickertapeFW.watchlist@35aea049]" started-at="2023-01-22T18:11:00 IST" name="setup" finished-at="2023-01-22T18:11:03 IST" duration-ms="3924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="time_period_1M_Test()[pri:18, instance:tickertapeFW.watchlist@35aea049]" started-at="2023-01-22T18:11:03 IST" name="time_period_1M_Test" finished-at="2023-01-22T18:11:11 IST" duration-ms="7575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time_period_1M_Test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tickertapeFW.watchlist@35aea049]" started-at="2023-01-22T18:11:11 IST" name="close" finished-at="2023-01-22T18:11:11 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tickertapeFW.watchlist -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>

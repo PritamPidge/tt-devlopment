@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tickertapeFW.logoutFunctionality">
+      <class name="tickertapeFW.watchlist">
         <methods>
+          <include name="fundamental_Test"/>
+          <include name="time_period_1M_Test"/>
           <include name="setup"/>
-          <include name="logoutTest"/>
           <include name="close"/>
         </methods>
-      </class> <!-- tickertapeFW.logoutFunctionality -->
+      </class> <!-- tickertapeFW.watchlist -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
