@@ -36,6 +36,7 @@ public class common extends mainDriver{
 	}
 	
 	public static String scanner() {
+		@SuppressWarnings("resource")
 		Scanner text= new Scanner(System.in);
 		System.out.println("Enter OTP :");
 		String string=text.nextLine();

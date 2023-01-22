@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite thread-count="1" verbose="1" name="tickertapeFW" annotations="JDK" parallel="tests">
+         
+  <test name="tickertapeFW">
+<classes>
+  <class name="tickertapeFW.landingPage"/>
+  <class name="tickertapeFW.loginFunctionality"/>
+</classes>
+   </test>
+</suite>
